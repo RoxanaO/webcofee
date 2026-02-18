@@ -1,0 +1,358 @@
+body {
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #212529;
+    font-size: 18px;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-bar {
+    background-color: #132f3b;
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+}
+.nav-link {
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+a.nav-link:hover {
+    color: #00aa13;
+  }
+
+  .btn:hover
+  {
+  background-image:none ;
+  color: white;
+  }
+
+.mtop { margin-top: 40px;}
+
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #00aa13;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+  .first {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: -15px;
+  }
+  .confirmation-btn:hover{
+    background-color:#00aa13;
+    color: white;
+  }
+
+.btn {
+    background-color: #fc2626;
+    color: white;
+    padding: 15px 30px; /* În loc de 100px */
+    font-weight: bold;
+    border: none;
+}
+
+.unu {
+    text-align: center;
+    height: 200px;
+}
+.black-box_button {
+    background-color: #00aa13;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    height: 60px;
+    width: 20%;
+    border: none;
+}
+
+
+.test {
+    padding-left: 70%;
+    /* padding-top: 5%; */
+
+}
+hr.linie {
+    border: 1px solid red ;
+    margin-right: 135px;
+    text-align: left;
+}
+
+.green {
+    color: #00aa13;
+}
+
+
+.lacheie {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family:Roboto;
+    padding-top: 130px;
+    padding-bottom: 0;
+}
+
+.cafea {
+    font-size: 35px;
+    font-weight: bold;
+    font-family:Roboto;
+    padding-top: 0;
+}
+tr {
+    margin-left: 50px;
+}
+
+.prezentare {
+    font-size: 15px; 
+    font-family:Roboto;
+    line-height:25px;
+}
+
+.card {
+    background-color: lawngreen;
+}
+  .carousel-item {
+    min-height: 220px;
+  }
+
+
+#carouselExample {
+    padding-top: 55px;;
+}
+
+.gray-box {
+    background-color: #f5f6f7;
+    margin-bottom: 50px;
+}
+.green-box {
+    background-color:  #00aa13;
+    /* padding: 30px; */
+    height: 240px;
+}
+.canuta {
+    margin: auto;
+    width: 40%;
+    padding-top: 15%;
+}
+.kkk {
+  color: white;
+}
+.marturie {
+  margin-top: 30px;
+}
+.nume {
+  font-size: 24px;
+  font-weight: bold;
+}
+.functie {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+img {
+    align-items: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border: none;
+    width: 100%;
+  }
+  
+  td, th {
+    
+    text-align: left;
+    padding: 8px;
+    line-height:10px;
+    padding-left: 30px;
+  }
+
+.lista {
+    padding-top: 30px;
+}
+
+
+/* Butonul START de la pachete */
+.confirmation-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #00aa13; /* Verde ca "CERE O OFERTA" */
+    color: white;
+    font-weight: 700;
+    margin-left: 30px;
+    position: inherit;
+    width: 80%;
+    height: 50px;
+    border: none;
+    font-size: 14px;
+}
+
+.confirmation-btn:hover {
+    background-color: #008f10; /* Verde mai închis la hover */
+    color: white;
+}
+
+.pret {
+    font-weight: bolder; 
+    font-size:28px;
+    color: #00aa13;
+    margin-top: 0;
+}
+
+
+.black-box {
+    background-color: #132f3b;
+    height: 100px;
+}
+
+.second-box {
+  margin-top:20px;
+  background-color: #00aa13;
+  height: 130px;
+}
+.black-box_button {
+ margin-top: 23px;
+ height: 50px;
+ width: 70%;
+ 
+}
+.text {
+    color: white;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.ultimele {
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Roboto;
+}
+
+  .bgimg {
+    /* Background image */
+    background-image: url(img/startup-593327_1920.jpg);
+    /* Full-screen */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* background-size: cover; */
+    font-family: "Roboto", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .corner {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: whitesmoke;
+  }
+
+  h1 {
+      padding-left: 40px;
+  }
+
+
+  footer {
+    /* position: fixed; */
+  
+    height: 100%;
+    width:100%;
+    background-color: #f9f9f9;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    padding-bottom: 120px;
+  }
+
+  .nav-linkf {
+    color:#c2c7ca;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Roboto;
+  }
+ .right {
+   padding-top: 30px;
+   padding-bottom: 20px;
+   color: #4c4e50;
+ }
+
+ link {
+   color: black;
+ }
+
+ .lastrow {
+   color: black
+ }
+
+ /* a:link {
+  color: white;
+  text-decoration: none;
+} */
+
+.box {
+  margin-right: -50px;
+}
+
+input {
+  background-color: #132f3b;
+  color:white;
+  border: none;
+  align-content: center;
+}
+
+.total {
+  text-align: right;
+  padding-top: 40px;
+}
+.totalfinal {
+  background-color: #00aa13;
+  text-align: right;
+  padding-top: 40px;
+}
+
+.valoare {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.prima {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.gray-box-title {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.alege {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #9f9f9f;
+  font-weight: 700;
+  border: none;
+  color: white;
+  width: 50%;
+  height: 50px; 
+  margin-left: 220px;
+
+}
